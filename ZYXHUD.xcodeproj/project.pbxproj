@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A61B6A61D9DF43A00F2C200 /* ZYXHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A61B6A51D9DF43A00F2C200 /* ZYXHUD.m */; };
+		9A61B6A81D9DF44B00F2C200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A61B6A71D9DF44B00F2C200 /* Main.storyboard */; };
 		9AE18A011D9CAD790048DF58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE18A001D9CAD790048DF58 /* main.m */; };
 		9AE18A041D9CAD790048DF58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE18A031D9CAD790048DF58 /* AppDelegate.m */; };
 		9AE18A071D9CAD790048DF58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE18A061D9CAD790048DF58 /* ViewController.m */; };
-		9AE18A0A1D9CAD790048DF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE18A081D9CAD790048DF58 /* Main.storyboard */; };
 		9AE18A0C1D9CAD790048DF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE18A0B1D9CAD790048DF58 /* Assets.xcassets */; };
 		9AE18A0F1D9CAD790048DF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE18A0D1D9CAD790048DF58 /* LaunchScreen.storyboard */; };
 		9AE18A1A1D9CAD790048DF58 /* ZYXHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE18A191D9CAD790048DF58 /* ZYXHUDTests.m */; };
@@ -35,13 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A61B6A41D9DF43A00F2C200 /* ZYXHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXHUD.h; sourceTree = "<group>"; };
+		9A61B6A51D9DF43A00F2C200 /* ZYXHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXHUD.m; sourceTree = "<group>"; };
+		9A61B6A71D9DF44B00F2C200 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9AE189FC1D9CAD790048DF58 /* ZYXHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYXHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE18A001D9CAD790048DF58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AE18A021D9CAD790048DF58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AE18A031D9CAD790048DF58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9AE18A051D9CAD790048DF58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9AE18A061D9CAD790048DF58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9AE18A091D9CAD790048DF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AE18A0B1D9CAD790048DF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AE18A0E1D9CAD790048DF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AE18A101D9CAD790048DF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A61B6A31D9DF43A00F2C200 /* ZYXHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9A61B6A41D9DF43A00F2C200 /* ZYXHUD.h */,
+				9A61B6A51D9DF43A00F2C200 /* ZYXHUD.m */,
+			);
+			path = ZYXHUD;
+			sourceTree = "<group>";
+		};
 		9AE189F31D9CAD790048DF58 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +113,14 @@
 		9AE189FE1D9CAD790048DF58 /* ZYXHUD */ = {
 			isa = PBXGroup;
 			children = (
+				9A61B6A31D9DF43A00F2C200 /* ZYXHUD */,
 				9AE18A021D9CAD790048DF58 /* AppDelegate.h */,
 				9AE18A031D9CAD790048DF58 /* AppDelegate.m */,
 				9AE18A051D9CAD790048DF58 /* ViewController.h */,
 				9AE18A061D9CAD790048DF58 /* ViewController.m */,
-				9AE18A081D9CAD790048DF58 /* Main.storyboard */,
 				9AE18A0B1D9CAD790048DF58 /* Assets.xcassets */,
 				9AE18A0D1D9CAD790048DF58 /* LaunchScreen.storyboard */,
+				9A61B6A71D9DF44B00F2C200 /* Main.storyboard */,
 				9AE18A101D9CAD790048DF58 /* Info.plist */,
 				9AE189FF1D9CAD790048DF58 /* Supporting Files */,
 			);
@@ -246,9 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A61B6A81D9DF44B00F2C200 /* Main.storyboard in Resources */,
 				9AE18A0F1D9CAD790048DF58 /* LaunchScreen.storyboard in Resources */,
 				9AE18A0C1D9CAD790048DF58 /* Assets.xcassets in Resources */,
-				9AE18A0A1D9CAD790048DF58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +289,7 @@
 				9AE18A071D9CAD790048DF58 /* ViewController.m in Sources */,
 				9AE18A041D9CAD790048DF58 /* AppDelegate.m in Sources */,
 				9AE18A011D9CAD790048DF58 /* main.m in Sources */,
+				9A61B6A61D9DF43A00F2C200 /* ZYXHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9AE18A081D9CAD790048DF58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9AE18A091D9CAD790048DF58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9AE18A0D1D9CAD790048DF58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -501,6 +507,7 @@
 				9AE18A2B1D9CAD790048DF58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AE18A2C1D9CAD790048DF58 /* Build configuration list for PBXNativeTarget "ZYXHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				9AE18A2E1D9CAD790048DF58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AE18A2F1D9CAD790048DF58 /* Build configuration list for PBXNativeTarget "ZYXHUDUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				9AE18A311D9CAD790048DF58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
